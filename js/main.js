@@ -287,7 +287,7 @@ class TicTacToe {
 
         // TODO: Hide the `this.startPrompt` element by setting the `class`
         // attribute to "hidden".
-        this.startPrompt.setAttribute('class', 'hidden'())
+        this.startPrompt.setAttribute('class', 'hidden')
         // TODO: Remove the "hidden" class from the `this.movePrompt` element.
         this.movePrompt.setAttribute('class', '');
         // TODO: Set `this.currentPlayer` equal to `this.player1`.
