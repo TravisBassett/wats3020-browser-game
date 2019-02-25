@@ -207,6 +207,7 @@ class TicTacToe {
         // will call the `handleMove` function whenever a tile is clicked.
         for (const tile of tileElements) {
             tile.addEventListener('click', handleMove);
+
         }
     }
     showWinScreen() {
@@ -329,12 +330,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // instance of the `TicTacToe` class and save it as a variable called
         // `game`.
         game = new TicTacToe();
+        // TODO: Call the `start()` method of the `game` object you just created.
+        game.start();
+        // NOTE: End of the `startButton` event listener here.
     });
 
 
-    // TODO: Call the `start()` method of the `game` object you just created.
-    TicTacToe.start();
-    // NOTE: End of the `startButton` event listener here.
+
 
 
 });
