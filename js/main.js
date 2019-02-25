@@ -38,7 +38,7 @@ class TicTacToe {
 
         // TODO: Set up DOM elements used in game as Class properties
         // TODO: Set `this.startPrompt` equal to the `#start-prompt` element
-        this.startPrompt = document.querySelector('#start-promt');
+        this.startPrompt = document.querySelector('#start-prompt');
         // TODO: Set `this.movePrompt` equal to the `#move-prompt` element
         this.movePrompt = document.querySelector('#move-prompt');
         // TODO: Set `this.currentPlayerToken` equal to the `#player-token` element
